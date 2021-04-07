@@ -2,28 +2,33 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px red solid;
 }
 body {
-    background-color: rgb(155, 155, 155);
+    color: #5579af;
+    background-color: #0d1117;
     font-family: 'DM Sans';
 }
 #body {
-    padding-top: 90px;
+    padding-top: 85px;
     display: grid;
     grid-template-columns: 5fr 3fr;
+}
+img {
+    border-radius: 5%;
+    box-shadow: black 3px 5px 8px;
 }
 
 /*Header Rules*/
 header {
-    background-color: rgb(119, 119, 119);
-    border-bottom: 2px rgb(87, 87, 87) solid;
+    color: #88929e;
+    background-color: #161b22;
+    border-bottom: 5px #12171d solid;
     width: 100%;
     padding: 5px 15px;
     position: fixed;
 }
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: underline;
     padding-left: 15px;
 }
@@ -36,8 +41,49 @@ header p {
 #main {
     padding-top: 40px;
 }
-#main h2 {
-    font-size: 30px;
+
+/*Introduction Rules*/
+#introduction h2 {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 55px;
+    text-decoration: underline;
+}
+#introduction #grid {
+    display: grid;
+    grid-template-columns: auto 3fr;
+    align-items: center;
+    margin: 20px 5%;
+}
+#introduction #picture {
+    width: 150px;
+}
+#introduction p {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#introduction #banner {
+    display: block;
+    height: 25vw;
+    min-height: 200px;
+    max-height: 300px;
+    margin: 0 auto 20px auto;
+}
+
+/*Projects Rules*/
+#projects h2 {
+    padding-left: 50px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/*Skills Rules*/
+#skills h2 {
+    padding-left: 50px;
+    font-size: 35px;
     text-decoration: underline;
 }
 
@@ -46,5 +92,34 @@ header p {
 /*Sidebar Rules*/
 #sidebar {
     padding-top: 40px;
-    border-left: 3px rgb(87, 87, 87) solid;
+    border-left: 5px #0b0f14 solid;
+    text-align: center;
+}
+
+#resources h2 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+#contact h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+#contact p {
+    font-size: 18px;
+}
+
+
+
+/*Media Rules for Phones*/
+@media only screen and (max-width: 680px) {
+    #body {
+        padding-top: 85px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
