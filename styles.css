@@ -1,0 +1,50 @@
+/*Universal Rules*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px red solid;
+}
+body {
+    background-color: rgb(155, 155, 155);
+    font-family: 'DM Sans';
+}
+#body {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+/*Header Rules*/
+header {
+    background-color: rgb(119, 119, 119);
+    border-bottom: 2px rgb(87, 87, 87) solid;
+    width: 100%;
+    padding: 5px 15px;
+    position: fixed;
+}
+header h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+header p {
+    font-size: 20px;
+}
+
+
+/*Main Rules*/
+#main {
+    padding-top: 40px;
+}
+#main h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+/*Sidebar Rules*/
+#sidebar {
+    padding-top: 40px;
+    border-left: 3px rgb(87, 87, 87) solid;
+}
