@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: red 1px solid;
 }
 body {
     color: #5579af;
@@ -152,9 +151,6 @@ header p {
 #resources h2 {
     font-size: 35px;
     text-decoration: underline;
-}
-#resources-grid {
-    
 }
 .resource {
     text-decoration: none;
