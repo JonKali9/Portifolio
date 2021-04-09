@@ -201,6 +201,20 @@ header p {
 
 
 
+footer {
+    color: #88929e;
+    background-color: #161b22;
+    border-top: 5px #12171d solid;
+    width: 100%;
+    padding: 10px 0;
+    text-align: right;
+}
+footer  h3 {
+    padding-right: 20px;
+}
+
+
+
 /*Media Rules for Phones*/
 @media only screen and (max-width: 680px) {
     #body {
