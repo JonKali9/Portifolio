@@ -1,13 +1,8 @@
-# Plans
-My plan is to create a portifolio Site, it should include a brief description of me.
-Showcase my projects, show my skills, have a way to contact me and have a bunch of photos to make the site look nice. I also want to include resources I've used.
+# jonkali.com
+My own personal portifiolio to show of my projects, skills and any resources I find useful or interesting.
+Currently fairly simply, but plan on improving it as time goes on and adding more features.
 
-## Resources
-Codecademy | https://www.codecademy.com/
-Youtube | https://www.youtube.com/
-Udemy | https://www.udemy.com/
-Freecodecamp | https://www.freecodecamp.org/
-Repl | https://replit.com/
-W3Schools | https://www.w3schools.com/
-Treehouse | https://teamtreehouse.com/2
-CodeWars | https://www.codewars.com/
+Contact Me:
+   * jonkali9@protonmail.com
+   * +42 420 382 8238
+   
