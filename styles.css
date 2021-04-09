@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0px solid red;
 }
 body {
     color: #5579af;
@@ -94,6 +95,7 @@ header p {
     text-decoration: none;
 }
 #projects-grid a:hover {
+    font-style: italic;
     background-color: #0e131a;
 }
 #projects-grid img {
@@ -120,6 +122,7 @@ header p {
 }
 #skills-grid {
     margin: 25px 75px;
+    margin-bottom: 150px;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
@@ -136,7 +139,14 @@ header p {
     border: 3px #1c2530 solid;
     border-radius: 50%;
     background-color: #11171f;
+    color: rgba(255, 255, 255, 0.644);
+}
+.skill:hover {
     color: white;
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: #151b24;
 }
 
 
@@ -151,21 +161,29 @@ header p {
 #resources h2 {
     font-size: 35px;
     text-decoration: underline;
+    margin-bottom: 30px;
 }
 .resource {
     text-decoration: none;
     text-align: left;
     color: #5579af;
 }
+.resource:hover {
+    font-style: italic;
+    color: #6388be;
+}
+.resource h3 {
+    text-decoration: underline;
+}
 .resource img {
     width: 50px;
     height: 50px;
+    display: inline-block;
 }
-.resource h3 {
-
-}
-.resource p {
-
+.resource-body {
+    width: 250px;
+    display: inline-block;
+    margin: 8px 10px;
 }
 
 #contact {
@@ -174,6 +192,7 @@ header p {
 #contact h2 {
     font-size: 30px;
     text-decoration: underline;
+    margin-top: 75px;
     margin-bottom: 10px;
 }
 #contact p {
@@ -198,5 +217,9 @@ header p {
     }
     #skills-grid {
         margin: 25px;
+        margin-bottom: 150px;
+    }
+    .resource-body {
+        width: 60%;
     }
 }
