@@ -122,7 +122,6 @@ header p {
 }
 #skills-grid {
     margin: 25px 75px;
-    margin-bottom: 150px;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
@@ -147,6 +146,13 @@ header p {
     font-style: italic;
     text-decoration: underline;
     background-color: #151b24;
+}
+#skill-desc {
+    color: rgba(255, 255, 255, 0.644);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    width: 350px;
 }
 
 
@@ -231,7 +237,6 @@ footer  h3 {
     }
     #skills-grid {
         margin: 25px;
-        margin-bottom: 150px;
     }
     .resource-body {
         width: 60%;
